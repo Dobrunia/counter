@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a52a2a;
+    text-decoration: underline;
+}
+
+.header {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3f3a5a;
+}
+
+.btn_link {
+    padding: 8px;
+    border: 1px solid #a52a2a;
+    border-radius: 10px;
+}
+
+.wrapper {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2E3747;
+}
+
+.red {
+    color: #a52a2a !important;
+}
+
+.border {
+    padding: 30px;
+    border: 3px solid #73315e;
+    border-radius: 10px;
+}
+
+.btn_zalupa {
+    color: #FFF;
+    padding: 12px;
+    border: 1px solid #73315e;
+    border-radius: 10px;
+    background-color: #73315e;
+    text-transform: capitalize;
+}
+
+.btn_zalupa:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.display {
+    width: 350px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #73315e;
+    font-size: 40px;
+}
+
+.conteiner {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btns {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.btns--center {
+    justify-content: center;
+}
+
+.btns--between {
+    justify-content: space-between;
+}
+
+.ValueParams {
+    width: 350px;
+    height: 150px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    color: #93264b;
+}
+
+.input {
+    width: 100px;
+    height: 20px;
+    border: 3px solid #73315e;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.disabled {
+    opacity: 0.5 !important;
+    cursor: default !important;
+}
+
+.positionX {
+    position: absolute;
+    top: center;
+    left: center;
+}
+
+.z_index {
+    z-index: -1;
+}
+
+.error {
+    border-color: #93264b;
+    background-color: #93264b;
+}
